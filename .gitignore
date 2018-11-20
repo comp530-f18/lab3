@@ -1,0 +1,4 @@
+*.o
+lru-sequential
+lru-mutex
+lru-fine
