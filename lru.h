@@ -22,7 +22,7 @@ int init (int numthreads);
  * Should set the reference count up by one if found; add if not.*/
 int reference (int key);
 
-/* Do a pass through all elements, either clear the reference bit,
+/* Do a pass through all elements, either decrement the reference count,
  * or remove if it hasn't been referenced since last cleaning pass.
  *
  * check_water_mark: If 1, block until there are more elements in the cache
